@@ -1,0 +1,56 @@
+@keyframes shadow {
+    from {text-shadow: 0 0 3px black;}
+    50% {text-shadow: 0 0 30px black;}
+    to {text-shadow: 0 0 3px black;}
+    }
+
+    @keyframes shadow2 {
+      from {text-shadow: 0 0 3px white;}
+      50% {text-shadow: 0 0 30px white;}
+      to {text-shadow: 0 0 3px white;}
+      }
+
+@keyframes bounce {
+    0%,
+    50%,
+    100% {
+        transform: translateY(0);
+        }
+    25% {
+        transform: translateY(-20px);
+        }
+    }
+
+    @keyframes kenburns-top-right {
+        0% {
+                  transform: scale(1) translate(0, 0);
+                  transform-origin: 84% 16%;
+        }
+        100% {
+                  transform: scale(1.25) translate(20px, -15px);
+                  transform-origin: right top;
+        }
+      }
+
+
+
+      /* Left */
+
+@keyframes left {
+
+}
+
+@keyframes swap2 {
+  0% {
+    opacity: 0;
+    transform-origin: 0 100%;
+    transform: scale(0, 0) translate(-700px, 0px);
+  }
+  100% {
+    opacity: 1;
+    transform-origin: 100% 100%;
+    transform: scale(1, 1) translate(0px, 0px);
+  }
+}
+
+      
